@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./img/Background.jpg);
+    background-size: 100%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.botao{
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.input{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: ;
+}

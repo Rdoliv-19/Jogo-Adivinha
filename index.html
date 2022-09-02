@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Adivinha</title>
-    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="page-title">
+        <h1>
             Adivinhe o número sorteado
         </h1>
-        <p class="page-subtitle">
+        <p>
             Digite um número de 0 a 10
         </p>
-        <input type="number" id="valor" /><br>
-        <button type="submit" onclick="Chutar()">Chutar</button>
+        <input type="number" id="valor" value="555" class="input" /><br>
+        <button type="submit" onclick="Chutar()" class="botao">Chutar</button>
         <h2 class="resultado" id="resultado"></h2>
     </div>
     
     <script src="app.js"></script>
-
 
 </body>
 
