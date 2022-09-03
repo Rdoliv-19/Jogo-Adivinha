@@ -14,10 +14,21 @@ body{
     padding: 5px 10px;
     border-radius: 8px;
     font-size: 15px;
+    border: none;
+    background-color:honeydew;
+    font-weight: bold;
+    transition: 1s all;
+    text-transform: uppercase;
+}
+
+.botao:hover{
+    background-color: darkorange;
+    scale: 1.1;
 }
 
 .input{
     padding: 5px 10px;
     border-radius: 8px;
-    background-color: ;
+    width: 5%;
+    text-align: center;
 }

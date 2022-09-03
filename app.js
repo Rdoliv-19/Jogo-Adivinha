@@ -1,12 +1,16 @@
-
-
 function sorteiaNumero(){
 
-    let valor = document.querySelector('#valor').value
+    let valor = parseInt(document.querySelector('#valor').value);
+    let resultado = document.querySelector('#resultado');
 
-    let sorteio = Math.round(Math.random() *10);
+
+    let sorteio = parseInt(Math.round(Math.random() *10));
+
+
+    if (valor === sorteio){
+        resultado.innerHTML=("Acertou");
+        
+    } else {
+        resultado.innerHTML=("Errou");
+    } 
 }
-
-let sorteio = Math.round(Math.random() *10);
-
-console.log(sorteio)
